@@ -1,6 +1,6 @@
 import { Button } from "@nextui-org/button";
 
-function openTab(url) {
+function openTab(url: string) {
   let newTab = document.createElement("a");
   newTab.href = url;
   newTab.target = "_blank";
