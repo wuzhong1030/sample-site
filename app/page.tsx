@@ -1,3 +1,5 @@
+"use client";
+
 import { Button } from "@nextui-org/button";
 
 function openTab(url: string) {
